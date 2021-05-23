@@ -24,7 +24,7 @@ var x = setInterval(function() {
     
   // Output the result in an element with id="demo"
   var time = document.getElementById("demo")
-  time.innerHTML = hours + "h "
+  time.innerHTML =days + "s" + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // hidden
