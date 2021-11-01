@@ -23,8 +23,8 @@ var x = setInterval(function() {
     
   // Output the result in an element with id="demo"
   var time = document.getElementById("demo")
-  time.innerHTML = "Michelle Birthday in: <br>" + days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  time.innerHTML = "<p style='text-aline: center'>Michelle Birthday in: <br>" + days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s </p>";
 
   // hidden
   var card = document.getElementById("card");   
